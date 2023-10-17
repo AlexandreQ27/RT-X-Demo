@@ -19,7 +19,7 @@ RUN apt install -y --fix-missing \
 
 COPY . /RT-X
 RUN --mount=type=cache,target=/root/.cache pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -U pip
-RUN --mount=type=cache,target=/root/.cache pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+RUN --mount=type=cache,target=/root/.cache pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r RT-X/requirements.txt
 RUN --mount=type=cache,target=/root/.cache pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jupyter
-CMD jupyter notebook --ip 0.0.0.0 --allow-root
+CMD jupyter notebook --ip 0.0.0.0 --allow-root --notebook-dir=$PWD
 
