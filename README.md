@@ -26,7 +26,7 @@ to download pre-trained model and Unzip to the same path as the <code>.ipynb</co
     docker build -t rt_x .
 ```
 
-### 4.RUN
+### 4.Run
 
 ```bash
     docker run -p 8888:8888 -it --rm --name rt_x rt_x
