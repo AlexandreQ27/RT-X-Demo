@@ -1,6 +1,6 @@
 # RT-X-Demo
 This is an implementation of RT-X on docker
-
+<img src="result.png" alt="result">
 ## Getting Started
 ### 1.Download the code and pre-trained model
 #### Download the code
