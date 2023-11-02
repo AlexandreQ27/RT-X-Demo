@@ -1,6 +1,6 @@
 # RT-X-Demo
-This is an implementation of RT-X on docker
-
+This is an implementation of RT-X on your own data.
+<img src="result.png" alt="result">
 ## Getting Started
 ### 1.Download the code and pre-trained model
 #### Download the code
@@ -17,10 +17,10 @@ RT-X pre-trained model: [pre-trained model](https://console.cloud.google.com/sto
 ```
 
 to download pre-trained model and Unzip to the same path as the <code>.ipynb</code> file
+## Docker
+### 1.Install docker environment
 
-### 2.Install docker environment
-
-### 3.Generating docker image
+### 2.Generating docker image
 
 ```bash
     docker build -t rt_x .
